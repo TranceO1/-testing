@@ -1,0 +1,49 @@
+h1 {
+    color: blue;
+}
+
+.myh1 {
+    font-family: sans-serif;
+    background-color: skyblue;
+}
+
+#heading {
+    padding: 20px;
+}
+ul li {
+    background-color: tomato;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+ul li span{
+    color: white;
+}
+
+
+ul li:nth-child(2) {
+    background-color: yellow;
+}
+
+ul li:last-child{
+    background-color: purple;
+}
+
+
+ul li:hover{
+    background-color: cyan;
+    text-decoration: underline;
+    color: white;
+    box-shadow: 0px 0px 15px green;
+}
+
+input:focus {
+    padding: 10px 20px;
+    outline: aquamarine solid 3px;
+    border: 2px solid royalblue;
+}
+
+p, button{
+    background-color: rgb(252, 189, 231);
+    padding: 10px;
+}
